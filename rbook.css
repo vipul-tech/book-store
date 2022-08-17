@@ -1,0 +1,217 @@
+body {
+    background-image: url("image/back.jpg");
+    margin-bottom: 5%;
+}
+h1{
+    text-align: center;
+    text-shadow: red;
+}
+header{
+    display:flex;
+    background-color: #f1f1f1;
+}
+header img{
+    flex:0.2;
+    border-radius: 0px;
+}
+ul {
+    flex:3.5;
+    list-style-type: none;
+    margin-top: 25px;
+}
+.nav-bar{
+    flex: 0.3;
+    margin-right: 20px;
+}
+.nav-bar li a{
+    background-color: black;
+    color: white;
+    border:1px solid black;
+}
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    border: 1px solid #a13808;
+    border-radius: 10px;
+    text-align: center;
+    color: #a13808;
+    padding: 14px 16px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #a13808;
+    color: white;
+}
+
+.btn-active {
+    background-color: #a13808;
+    color: white;
+    border: 2px solid #ed740a;
+}
+
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 0.5;
+    background: #ccc;
+    padding: 10px;
+}
+
+.active {
+    background-color: #666;
+    color: white;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 25px;
+}
+
+nav li {
+    float: left;
+    width: 100%;
+}
+
+nav li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    text-align: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: purple underline;
+    background-color: #666;
+    color: white;
+}
+
+/* Style the content */
+.content {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3.5;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 100%;
+    padding: 20px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+    margin: 0 35px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column img {
+    height: 100%;
+    width: 25%;
+    float: inline-start;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 8px 16px 0 rgba(243, 106, 8, 0.9);
+}
+
+.container {
+    float: right;
+    width: 75%;
+    padding: 2px 16px;
+    text-align: left;
+    text-decoration: none;
+    font-size: x-large;
+}
+.container a{
+    display: block;
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+footer {
+    position: absolute;
+    background: black;
+    height: auto;
+    width: 97.5vw;
+    padding-top: 40px;
+}
+
+.footer-content {
+    padding-bottom: 2%;
+    display:flex;
+}
+
+.fa {
+    padding: 8px;
+    font-size: 28px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #fb1d6e;
+    color: white;
+}

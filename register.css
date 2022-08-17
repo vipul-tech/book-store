@@ -1,0 +1,142 @@
+body {
+    background-image: url("image/back.jpg");
+    margin-bottom: 5%;
+}
+h1{
+    text-align: center;
+}
+header{
+    display:flex;
+    background-color: #f1f1f1;
+}
+header img{
+    flex:0.2;
+    border-radius: 0px;
+}
+ul {
+    flex:3.5;
+    list-style-type: none;
+    margin-top: 25px;
+}
+.nav-bar{
+    flex: 0.3;
+    margin-right: 20px;
+}
+.nav-bar li a{
+    background-color: black;
+    color: white;
+    border:1px solid black;
+}
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    border: 1px solid #a13808;
+    border-radius: 10px;
+    text-align: center;
+    color: #a13808;
+    padding: 14px 16px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #a13808;
+    color: white;
+}
+
+.btn-active {
+    background-color: #a13808;
+    color: white;
+    border: 2px solid #ed740a;
+}
+
+button {
+    background-color: #dc9507;
+    width: 100%;
+    color: white;
+    padding: 15px;
+    margin: 10px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+form {
+    width: 50%;
+    padding-left: 25%;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid rgb(186, 193, 186);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+input[type=tel]{
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid rgb(186, 193, 186);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.container {
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+footer {
+    position: absolute;
+    background: black;
+    height: auto;
+    width: 97.5vw;
+    padding-top: 40px;
+}
+
+.footer-content {
+    padding-bottom: 2%;
+    display:flex;
+}
+
+.fa {
+    padding: 8px;
+    font-size: 28px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #fb1d6e;
+    color: white;
+}
